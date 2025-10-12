@@ -9,18 +9,19 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
     "react-scripts": "^5.0.1",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build -l $PORT",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve-db": "json-server --watch db.json --port $PORT --delay 200",
-    "dev": "concurrently \"npm run serve-db\" \"npm start\""
+    "serve-db": "json-server --watch db.json --port 3001 --delay 200",
+    "dev": "concurrently \"npm run serve-db\" \"react-scripts start\""
   },
   "browserslist": {
     "production": [
