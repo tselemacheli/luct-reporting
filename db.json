@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "name": "TSELE PETER MACHELI",
+      "email": "tselemacheli334@gmail.com",
+      "password": "1234",
+      "role": "student",
+      "id": 5
+    },
+    {
+      "name": "KABELO TSIKINYANE",
+      "email": "kabelotsikinyane@luct.ac.ls",
+      "password": "1234",
+      "role": "lecturer",
+      "id": 6
+    },
+    {
+      "name": "WANDILE PHENDUKA",
+      "email": "wandilephenduka@luct.ac.ls",
+      "password": "1234",
+      "role": "pl",
+      "id": 7
+    },
+    {
+      "name": "TSEPO THONKHA",
+      "email": "tsepothonkha@luct.ac.ls",
+      "password": "1234",
+      "role": "prl",
+      "id": 8
+    },
+    {
+      "name": "TLHABELI QABALATSANE",
+      "email": "qabalatsanetlhabeli@luct.ac.ls",
+      "password": "1234",
+      "role": "lecturer",
+      "id": 9
+    },
+    {
+      "name": "SEETA MAHASE",
+      "email": "seetamahase@gmail.com",
+      "password": "1234",
+      "role": "student",
+      "id": 10
+    }
+  ],
+  "courses": [
+    {
+      "name": "PRINCIPLES OF WEB DEVELOPMENT",
+      "code": "PWD1210",
+      "faculty_name": "FICT",
+      "id": 1,
+      "lecturerId": 6,
+      "lecturerName": "KABELO TSIKINYANE"
+    },
+    {
+      "name": "OBJECT ORIENTED PROGRAMMING 1",
+      "code": "OOP1",
+      "faculty_name": "FICT",
+      "id": 2,
+      "lecturerId": 9,
+      "lecturerName": "TLHABELI QABALATSANE"
+    }
+  ],
+  "classes": [
+    {
+      "name": "BSCITY2S1",
+      "venue": "MM2",
+      "time": "18:08",
+      "courseId": "1",
+      "id": 2,
+      "lecturerId": 6,
+      "lecturerName": "KABELO TSIKINYANE"
+    },
+    {
+      "name": "BSITY2S1",
+      "venue": "MM4",
+      "time": "20:30",
+      "courseId": 2,
+      "id": 3,
+      "lecturerId": 9,
+      "lecturerName": "TLHABELI QABALATSANE"
+    }
+  ],
+  "reports": [
+    {
+      "courseId": 1,
+      "courseName": "PRINCIPLES OF WEB DEVELOPMENT",
+      "week": "9",
+      "date": "2025-10-10",
+      "topic": "NOSQL",
+      "venue": "MM2",
+      "time": "14:30",
+      "outcomes": "LEARN NOSQL",
+      "recommendations": "KNOW DIFFERENCE BETWEEN NOSQL AND SQL",
+      "presentStudents": [
+        5
+      ],
+      "lecturerId": 6,
+      "present": 1,
+      "total": 1,
+      "createdAt": "2025-10-10T21:22:32.169Z",
+      "id": 1
+    },
+    {
+      "courseId": 2,
+      "courseName": "OBJECT ORIENTED PROGRAMMING 1",
+      "week": "9",
+      "date": "2025-09-22",
+      "topic": "ARRAY MANIPULATION",
+      "venue": "MM5",
+      "time": "10:30",
+      "outcomes": "INPUT AND DELETE FROM ARAY",
+      "recommendations": "NON",
+      "presentStudents": [
+        5
+      ],
+      "lecturerId": 9,
+      "present": 1,
+      "total": 1,
+      "createdAt": "2025-10-12T12:51:53.533Z",
+      "id": 2
+    }
+  ],
+  "lecturerRatings": [
+    {
+      "id": 1760118615932,
+      "lecturerId": 6,
+      "userId": 5,
+      "rating": 2,
+      "comment": "ALWAYS ON TIK TOK"
+    },
+    {
+      "id": 1760273371599,
+      "lecturerId": 9,
+      "userId": 5,
+      "rating": 3,
+      "comment": "HELPS WHERE THERE IS A PROBLEM",
+      "date": "2025-10-12T12:49:31.599Z"
+    },
+    {
+      "id": 1760274499781,
+      "lecturerId": 6,
+      "userId": 10,
+      "rating": 2,
+      "comment": "A BIT LAZY",
+      "date": "2025-10-12T13:08:19.781Z"
+    },
+    {
+      "id": 1760274528254,
+      "lecturerId": 9,
+      "userId": 10,
+      "rating": 4,
+      "comment": "STRAIGHT FORWARD AND EAZY TO UNDERSTAND",
+      "date": "2025-10-12T13:08:48.254Z"
+    }
+  ],
+  "attendance": [
+    [
+      {
+        "reportId": 1,
+        "studentId": 5,
+        "courseId": 1,
+        "date": "2025-10-10",
+        "status": "present"
+      }
+    ]
+  ],
+  "enrollments": [
+    {
+      "id": 1760085653827,
+      "userId": 5,
+      "courseId": 1
+    },
+    {
+      "id": 1760273331128,
+      "userId": 5,
+      "courseId": 2
+    },
+    {
+      "id": 1760274049002,
+      "userId": 10,
+      "courseId": 1
+    },
+    {
+      "id": 1760274059433,
+      "userId": 10,
+      "courseId": 2
+    }
+  ]
+}
