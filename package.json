@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve-db": "json-server --watch db.json --port 3001 --delay 200",
+    "serve-db": "json-server --watch db.json --port $PORT --delay 200",
     "dev": "concurrently \"npm run serve-db\" \"react-scripts start\""
   },
   "browserslist": {
