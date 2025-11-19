@@ -50,14 +50,7 @@ export default function PreLoginDashboard() {
 
       {/* Sidebar / Quick Links */}
       <aside className="module">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/register">Register</Link></li>
-        </ul>
-
-        <hr />
-        
+      
       </aside>
     </div>
   );
