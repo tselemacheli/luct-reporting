@@ -49,9 +49,6 @@ export default function PreLoginDashboard() {
       </div>
 
       {/* Sidebar / Quick Links */}
-      <aside className="module">
-      
-      </aside>
     </div>
   );
 }
